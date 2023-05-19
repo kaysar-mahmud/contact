@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing : border-box;
+    
+}
+.contact
+{
+position: relative;
+min-height: 100vh;
+padding: 50px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: url(image/R.jpg);
+background-size: cover;
+}
+.contact .content
+{ max-width: 800px;
+    text-align: center;
+}
+.contact .content h1
+{
+font-size: 60px;
+font-weight: 500;
+color: #fff;
+}
+.contact .content p
+{
+    font-weight: 300;
+    color: #fff;
+
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.container .contactinfo 
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+.container .contactinfo .box .icon
+{
+min-width: 60px;
+height: 60px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+ font-size: 22px;
+
+}
+
+.container .contactinfo .box .text 
+{
+    display: flex;
+    margin-left:  20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300
+}
+
+.container .contactinfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+
+
+
+
+
+.input-row{
+     
+     
+    margin-bottom: 20px;
+ }
+ .input-row .input-group{
+   flex-basis: 45%;
+
+ }
+ input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid;
+ }
+ textarea{
+    width: 100%;
+    border: 1px solid rgb(16, 184, 214);
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+ }
+ label{
+    margin-bottom: 10px;
+    display: block;
+    color: #15aed4
+
+ }
+ button{
+    background: #068ed1;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #ccc;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(red, green, blue, alpha);
+ }
+
+
+.color{
+    color: #15aed4;
+}
+ h4{
+   color: #15aed4;
+   font-size: 20px;
+ }
